@@ -70,26 +70,66 @@ body {
     transform: rotate(50deg);
   } */
 
-  .box4:hover {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(165, 42, 42, 0.562);
-    border-radius: 10px;
-    transform: scale(2.5);
-  }
+.box4:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scale(2.5);
+}
 
-  .box5:hover {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(165, 42, 42, 0.562);
-    border-radius: 10px;
-    transform: scaleX(2);
-  }
+.box5:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scaleX(2);
+}
 
-  .box6:hover {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(165, 42, 42, 0.562);
-    border-radius: 10px;
-    transform: translateX(40px);
-  }
+.box6:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scaleY(2);
+}
+
+.box7:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: skewX(40deg);
+}
+
+.box8:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: skewY(40deg);
+}
+
+.box9:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: translateX(50px) translateY(20px);
+}
+
+.box10:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: translateX(40px);
+}
+
+.box11:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: translateY(40px);
+}
