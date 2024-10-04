@@ -11,7 +11,7 @@ body {
 
 .container {
   width: 100vw;
-  min-height: 400rem;
+  min-height: 800px;
   flex-wrap: wrap;
   gap: 20px;
   display: flex;
@@ -54,28 +54,28 @@ body {
   transform: rotate(50deg);
 }
 
-/* .box2:hover {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(165, 42, 42, 0.562);
-    border-radius: 10px;
-    transform: rotate(50deg);
-  }
-  
-  .box3:hover {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(165, 42, 42, 0.562);
-    border-radius: 10px;
-    transform: rotate(50deg);
-  } */
+.box2:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scaleY(0.75);
+}
+
+.box3:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scaleX(0.75);
+}
 
 .box4:hover {
   width: 100px;
   height: 100px;
   background-color: rgba(165, 42, 42, 0.562);
   border-radius: 10px;
-  transform: scale(2.5);
+  transform: scale(2);
 }
 
 .box5:hover {
@@ -132,4 +132,132 @@ body {
   background-color: rgba(165, 42, 42, 0.562);
   border-radius: 10px;
   transform: translateY(40px);
+}
+
+.box12:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scale(2) skewY(50deg);
+}
+
+/* .box13:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(165, 42, 42, 0.562);
+    border-radius: 10px;
+    transform: perspective();
+  } */
+
+  /* .box14:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(165, 42, 42, 0.562);
+    border-radius: 10px;
+    transform: perspective();
+  } */
+
+.box15:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: rotate(30deg);
+  transform-origin: top right;
+}
+
+.box16:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: rotate(30deg);
+  transform-origin: bottom left;
+}
+
+/* .box17:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: ;
+} */
+
+/* .box18:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: ;
+} */
+
+/* .box19:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: ;
+} */
+
+/* .box20:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: ;
+} */
+
+.box21:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scale(2);
+  transform-origin: top right;
+}
+
+.box22:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scale(2);
+  transform-origin: bottom left;
+}
+
+.box23:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scaleX(2);
+  transform-origin: right;
+}
+
+.box24:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scaleX(2);
+  transform-origin: left;
+}
+
+.box25:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scaleY(2);
+  transform-origin: top;
+}
+
+.box26:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: scaleY(2);
+  transform-origin: bottom;
 }
