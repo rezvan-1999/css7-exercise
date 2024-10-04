@@ -10,11 +10,12 @@ body {
 }
 
 .container {
-  width: 100vw;
+  width: 90em;
   min-height: 800px;
   flex-wrap: wrap;
   gap: 20px;
   display: flex;
+  margin-left: 15rem;
   padding: 90px;
   translate: 20px;
 }
@@ -142,21 +143,21 @@ body {
   transform: scale(2) skewY(50deg);
 }
 
-/* .box13:hover {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(165, 42, 42, 0.562);
-    border-radius: 10px;
-    transform: perspective();
-  } */
+.box13:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: perspective(100px) rotateX(45deg);
+}
 
-  /* .box14:hover {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(165, 42, 42, 0.562);
-    border-radius: 10px;
-    transform: perspective();
-  } */
+.box14:hover {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.562);
+  border-radius: 10px;
+  transform: perspective(100px) rotateY(45deg);
+}
 
 .box15:hover {
   width: 100px;
@@ -176,37 +177,41 @@ body {
   transform-origin: bottom left;
 }
 
-/* .box17:hover {
+.box17:hover {
   width: 100px;
   height: 100px;
   background-color: rgba(165, 42, 42, 0.562);
   border-radius: 10px;
-  transform: ;
-} */
+  transform: perspective(80px) rotateX(20deg);
+  transform-origin: bottom;
+}
 
-/* .box18:hover {
+.box18:hover {
   width: 100px;
   height: 100px;
   background-color: rgba(165, 42, 42, 0.562);
   border-radius: 10px;
-  transform: ;
-} */
+  transform: perspective(600px) rotateX(50deg);
+  transform-origin: top;
+}
 
-/* .box19:hover {
+.box19:hover {
   width: 100px;
   height: 100px;
   background-color: rgba(165, 42, 42, 0.562);
   border-radius: 10px;
-  transform: ;
-} */
+  transform: perspective(80px) rotateY(20deg);
+  transform-origin: left;
+}
 
-/* .box20:hover {
+.box20:hover {
   width: 100px;
   height: 100px;
   background-color: rgba(165, 42, 42, 0.562);
   border-radius: 10px;
-  transform: ;
-} */
+  transform: perspective(400px) rotateY(50deg);
+  transform-origin: right;
+}
 
 .box21:hover {
   width: 100px;
